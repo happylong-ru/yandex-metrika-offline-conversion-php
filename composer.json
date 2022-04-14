@@ -1,18 +1,18 @@
 {
-    "name": "flamix/yandex-metrika-offline-conversion-php",
+    "name": "igorbunov/yandex-metrika-offline-conversion-php",
     "description": "Yandex Metrika Offline Conversion PHP APIv2",
     "type": "library",
-    "authors": [{
-        "name": "Artem Iksanov",
-        "email": "iksanov@meiji.media",
-        "homepage": "https://meiji.media"
-    }],
     "license": "MIT",
+    "authors": [
+        {
+        "name": "igorbunov",
+        "email": "igorbunov.ua@mail.com"
+        }
+    ],
     "minimum-stability": "dev",
     "require": {
-        "guzzlehttp/guzzle": ">=6.2",
-        "php": ">=5.6",
-        "ext-json": "*"
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
         "psr-4": {

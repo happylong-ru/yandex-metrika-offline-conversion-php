@@ -1,20 +1,18 @@
 # Yandex Metrika Offline Conversion Client (PHP | APIv2)
-[![Packagist](https://img.shields.io/badge/package-meiji/yandex--metrika--offline--conversion--php-blue.svg?style=flat-square)](https://packagist.org/packages/meiji/yandex-metrika-offline-conversion-php)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/meiji/yandex-metrika-offline-conversion-php.svg?style=flat-square)](https://packagist.org/packages/meiji/yandex-metrika-offline-conversion-php)
+[![Packagist](https://img.shields.io/badge/package-igorbunov/yandex--metrika--offline--conversion--php-blue.svg?style=flat-square)](https://github.com/igorbunov/yandex-metrika-offline-conversion-php)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/igorbunov/yandex-metrika-offline-conversion-php.svg?style=flat-square)](https://github.com/igorbunov/yandex-metrika-offline-conversion-php)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![PHP >=5.6](https://img.shields.io/badge/php-%3E%3D_5.6-orange.svg?style=flat-square)](https://git.meiji.media/meiji/yandex-metrika-offline-conversion-php)
+[![PHP >=8.0](https://img.shields.io/badge/php-%3E=_8.0-orange.svg?style=flat-square)](https://github.com/igorbunov/yandex-metrika-offline-conversion-php)
 
 ### Клиент для управения офлайн-данными Яндекс.Метрики используя API
 
 Документацию по доступным методам вскоре появится по [ссылке](https://meiji.media)
 
-_*Внимание!*_ API находится в стадии разработки.
-
 ## Installation
 Для того, чтобы подключить библиотеку в свой проект, можно воспользоваться [composer](https://getcomposer.org)
 
 ```bash
-composer require rshkabko/yandex-metrika-offline-conversion-php
+composer require igorbunov/yandex-metrika-offline-conversion-php
 ```
 
 ## Usage
