@@ -6,9 +6,9 @@ use Meiji\YandexMetrikaOffline\ValueObject\Conversion;
 
 class Upload
 {
-    public const CLIENT_ID_TYPE_USER = 'USER_ID';
-    public const CLIENT_ID_TYPE_CLIENT = 'CLIENT_ID';
-    public const SCOPE_PATH = 'upload';
+    const CLIENT_ID_TYPE_USER = 'USER_ID';
+    const CLIENT_ID_TYPE_CLIENT = 'CLIENT_ID';
+    const SCOPE_PATH = 'upload';
 
     private $conversionInstance;
     private $client_id_type;

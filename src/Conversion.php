@@ -6,8 +6,8 @@ use Meiji\YandexMetrikaOffline\Scope\Upload;
 
 class Conversion
 {
-    public const API_URL = 'https://api-metrika.yandex.net/management/v1';
-    public const VERSION = '0.1';
+    const API_URL = 'https://api-metrika.yandex.net/management/v1';
+    const VERSION = '0.1';
 
     private $oAuthToken;
 

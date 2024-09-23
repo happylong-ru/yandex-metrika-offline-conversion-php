@@ -6,8 +6,8 @@ use Meiji\YandexMetrikaOffline\Scope\Upload;
 
 class ConversionHeader
 {
-    public const CLIENT_ID_TYPE_USER_COLUMN_NAME  = 'UserId';
-    public const CLIENT_ID_TYPE_CIENT_COLUMN_NAME = 'ClientId';
+    const CLIENT_ID_TYPE_USER_COLUMN_NAME = 'UserId';
+    const CLIENT_ID_TYPE_CIENT_COLUMN_NAME = 'ClientId';
 
     private static $availableColumns = ['UserId', 'ClientId', 'Target', 'DateTime', 'Price', 'Currency'];
     private $ClientIdType;
@@ -28,7 +28,7 @@ class ConversionHeader
 
         $headerString = $typeColumnName;
         foreach ($this->usesColumns as $columnName) {
-            $headerString .= "," . $columnName;
+            $headerString .= ",".$columnName;
         }
 
         return $headerString;
